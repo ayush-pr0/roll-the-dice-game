@@ -78,7 +78,7 @@ btnRole.addEventListener('click', function () {
     const num = Math.trunc(Math.random() * 6) + 1;
 
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${num}.png`;
+    diceEl.src = `./images/dice-${num}.png`;
 
     if (num != 1) {
       currScore += num;
